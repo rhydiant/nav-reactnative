@@ -1,4 +1,5 @@
 /* eslint-disable react/prefer-stateless-function */
+// @flow
 import React from 'react';
 import {
   View, Button, FlatList, StyleSheet,

@@ -41,11 +41,9 @@ class App extends Component<Props> {
   render() {
     return (
       <Provider store={store}>
-        <SafeAreaView style={{ flex: 1, backgroundColor: '#F5FCFF' }}>
-          <View style={styles.container}>
-            <AppContainer />
-          </View>
-        </SafeAreaView>
+        <View style={styles.container}>
+          <AppContainer />
+        </View>
       </Provider>
     );
   }
